@@ -1,0 +1,121 @@
+{% templates 'core/base.html' %}
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Icono -->
+  <link rel="icon" type="text/css" href="../../static/corec/imagen/icono.png">
+  <link rel="stylesheet" type="text/css" href="{% static corec/estilos/estilos/styles.css %}">
+   
+  </head>
+  <body>
+    {% block content %}
+     <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">   
+        </ul>
+        <ul class="navbar-nav my-2 my-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="nosotros.html">Nosotros </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="registro.html">Registro </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="login.html">Ingresar </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Imagen principal -->
+  <div class="jumbotron fondoin ">
+    <center>
+      <div class="logotipo">
+          <img src="../../static/corec/imagen/castle.png" style="width: 20%"><h3 >Developers Castle</h3>
+          <br>
+          <div class="btn btn-black" style="background-color: black">
+          <a class="nav-link text-light" href="registro.html">Registro </a>
+          </div>
+     </div>
+    </center>
+  </div>
+  <!-- promocion -->
+    <section class="container">
+    <div class="row container ">
+      <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/corec/imagen/fo.jpg">
+      </div>
+      <div class="col-sm-6" style="margin-top: 7%">
+        <h3 class="text-center display-5">Paso 1</h3>
+        <p class="text-center">Registrate en un solo paso</p>
+      </div>
+      <div class="col-sm-6" style="margin-top: 10%">
+        <h3 class="text-center display-5">Paso 2</h3>
+        <p class="text-center">Sube tus datos y adjunta tu hoja de vida</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/corec/imagen/fondit.jpg">
+      </div>
+     <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/corec/imagen/fond.jpg">
+      </div>
+      <div class="col-sm-6" style="margin-top: 10%">
+        <h3 class="text-center display-5">Paso 3</h3>
+        <p class="text-center">A trabajar</p>
+      </div>
+    </div>
+  </section>
+  <!-- nosotros -->
+  <div class="" style="margin: 60px">
+    <section class="container">
+    <div class="row container">
+      <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid " src="../../static/corec/imagen/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Melisa Carmona Sosa</h5>
+        <br>
+        <h6 class="mb-0 text-center">Esta aprendiz del SENA se destaca más en lenguajes que van ligados al fronted como HTML, CSS. Ha realizado distintos proyectos en diferentes entornos de desarrollo y lenguajes tales como c# haciendo uso de Web Service.</h6>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid" src="../../static/corec/imagen/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Camilo Vahos López</h5>
+        <br>
+        <h6 class="mb-0 text-center">Camilo es una persona emprendedora que va a lo grande, su objetivo principal es obtener el suficiente conocimiento para montar su propia empresa en torno al desarrollo, ha realizado estudios en otros idiomas tales como Inglés y Francés.</h6>
+      </div>
+     <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid" src="../../static/corec/imagen/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Angeli Jaramillo Dominguez</h5>
+        <br>
+        <h6 class="mb-0 text-center">A esta aprendiz le gusta ir más allá de lo que le proponen y superar sus propios límites. Su especilidad es el backend le gusta realizar Base de Datos y hacer las debidas conexiones y validaciones que se requieren a la hora de realizar páginas o aplicaciones.</h6>
+      </div>
+</div>
+    </div>
+  </section>
+  </div>
+
+       
+        
+  <!-- Footer -->
+    <footer class="" style="background-color: black">
+      <p class="text-center text-light">Copyright © Todos los Derechos Reservados</p>
+    </footer>
+  
+
+{% end block %} 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static corec/js/jquery.min.js %}" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="{% static corec/js/popper.min.js %}" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

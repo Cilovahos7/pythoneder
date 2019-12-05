@@ -1,0 +1,12 @@
+.fondoin{
+  background-image: url('../imagen/fonin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; 
+}
+.jumbotron{
+	background-image: url('../imagen/fonin.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
